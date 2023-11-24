@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///cataloguedb
+    username: sa
+    password:
+
+server:
+  port: 9200
